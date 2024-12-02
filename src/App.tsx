@@ -14,7 +14,6 @@ import MeetWrite from './pages/MeetWrite';
 import ChatList from './pages/ChatList';
 import ChatDetail from './pages/ChatDetail';
 import MapView from './pages/MapView';
-import Notification from './pages/Notification';
 import Board from './pages/Board';
 import BoardList from './pages/Board/type';
 import BoardDetail from './pages/BoardDetail';
@@ -47,7 +46,6 @@ function App() {
         <Route path="/chatList" element={<ChatList />} />
         <Route path="/chat/:option" element={<ChatDetail />} />
         <Route path="/map" element={<MapView />} />
-        <Route path="/notification" element={<Notification />} />
         <Route path="/board" element={<Board />} />
         <Route path="/board/:type" element={<BoardList />} />
         <Route path="/board/write/:type" element={<BoardWrite />} />
